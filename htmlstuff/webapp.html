@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<link rel = "stylesheet" href = "style.css">
+<!--Website Title-->
+    <head>
+        <p><a href = "index.html">Home</a></p>
+        <title>Weight Converter</title>
+    </head>
+    <body>
+        <div class = "title">
+        <h2>Weight Converter</h2>
+        </div>
+
+<!--Main Body-->
+<div class = "body">
+<div class = "text">
+<p>Enter a value below to convert:</p>
+        <p>
+            <label>Kilograms</label>
+            <!-- kiloweightConvert function call
+ function kiloweightConvert to evaluate value-->
+            <input id="Kilograms" type="number" placeholder="kilograms" oninput="kiloweightConvert(this.value)"onchange="kiloweightConvert(this.value)" />
+        </p>
+<!--Conversions-->
+<p>Pounds: <span id="Pounds"></span></p>     
+<p>Ounces: <span id="Ounces"></span></p>       
+<p>Grams: <span id="Grams"></span></p>    
+<p>Stones: <span id="Stones"></span></p>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+    </body>
+</html>

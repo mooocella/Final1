@@ -1,0 +1,18 @@
+.title {
+    text-align: center;
+    color: slategray;
+    font-family: verdana;
+    font-size: 100%;
+}
+
+.body{
+    background-color:lightsteelblue;
+    margin-left: 3%;
+    margin-right: 3%;
+    margin-bottom: auto;
+}
+
+.text{
+    margin-left: 10%;
+    margin-right: 10%;
+}
